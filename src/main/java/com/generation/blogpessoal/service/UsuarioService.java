@@ -12,8 +12,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
 import com.generation.blogpessoal.model.UsuarioLogin;
+import com.generation.blogpessoal.repository.UsuarioRepository;
 import com.generation.blogpessoal.model.Usuario;
-import com.generation.blogpessoal.repositoy.UsuarioRepository;
 import com.generation.blogpessoal.security.JwtService;
 
 @Service
